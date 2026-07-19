@@ -9,7 +9,7 @@ attaches one or more pre-existing network interfaces.
 
 ```hcl
 module "virtual_machine" {
-  source = "github.com/cybercapybara/terraform-azurerm-virtual-machine"
+  source = "github.com/moveeeax/terraform-azurerm-virtual-machine"
 
   name                = "app-vm"
   resource_group_name = "prod-rg"
